@@ -36,11 +36,11 @@ function has_children() {
 }
 
 // Customize excerpt word count length
-function custom_excerpt_length() {
+function custom_excerpt_length2() {
 	return 22;
 }
 
-add_filter('excerpt_length', 'custom_excerpt_length');
+add_filter('excerpt_length', 'custom_excerpt_length2');
 
 
 
